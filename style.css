@@ -111,6 +111,7 @@ div.intro {
     margin: auto;
     margin-top: 5%;
     position: relative;
+    min-height: 425px;
 }
 
 div.background-img {
@@ -124,11 +125,28 @@ div.background-img img {
 }
 
 div.intro-text {
-    margin-top: 9%;
+    margin-top: 7%;
     text-align: center;
     z-index: 10;
     width: 100%;
     position: absolute;
+}
+
+button.hire-us {
+    background: #00FFE0;
+    border: none;
+    border-radius: 100px;
+    padding: 1rem;
+    width: 12rem;
+    font-size: 1.25rem;
+    color: #000000;
+    box-shadow: 0 0 60px #00FFE0;
+    transition: transform 0.4s;
+}
+
+button.hire-us:hover {
+    color: #000000;
+    background: #00FFE0;
 }
 
 .intro-text h1 {
@@ -151,6 +169,48 @@ div.intro-text {
     }
 
     div.intro-text {
-        margin-top: 18%
+        margin-top: 18%;
     }
+
+    div.intro {
+        min-height: 380px;
+    }
+}
+
+/* ##############ABOUT NOERROR############# */
+
+div.about {
+    position: absolute;
+    padding-top: 5%;
+    width: 100%;
+    padding-left: 2%;
+    overflow: hidden;
+}
+
+div.about h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 2%;
+    padding-bottom: 3%;
+}
+
+span.bottom-line {
+    padding-top: 2%;
+    border-bottom:#00FFE0 4px solid;
+}
+
+div.about p {
+    padding-left: 3%;
+    font-size: 1.1rem;;
+}
+
+div.about img {
+    width: 50%;
+    margin-left: 25%;
+    filter: drop-shadow(0 0 100px #00FFE0);
+}
+
+@media only screen and (max-width: 680px) {
+    
 }
