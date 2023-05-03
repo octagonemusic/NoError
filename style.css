@@ -203,7 +203,6 @@ span.bottom-line {
 div.about p {
     padding-left: 3%;
     font-size: 1.1rem;
-    ;
 }
 
 div.about img {
@@ -231,4 +230,8 @@ div.about img {
         display: none;
     }
 
+    div.about p {
+        padding-right: 3%;
+        font-size: 1.1rem;
+    }
 }
