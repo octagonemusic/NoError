@@ -11,6 +11,15 @@ body {
     color: #ffffff;
 }
 
+div.container {
+    width: 100%;
+    margin: auto;
+}
+
+.fa {
+    color: #fff;
+}
+
 /* ##################NAVBAR########################## */
 .navbar {
     background: #00110F;
@@ -36,12 +45,12 @@ a.nav-link {
     padding-left: 3rem !important;
 }
 
-.fa-brands {
+.nav-icon {
     color: #fff;
     transition: transform 0.4s;
 }
 
-.fa-brands:hover {
+.nav-icon:hover {
     color: #00FFE0;
     transition: 0.4s;
     transform: scale(1.25);
@@ -121,7 +130,7 @@ div.background-img {
 
 div.background-img img {
     width: 100%;
-    opacity: 50%;
+    opacity: 80%;
 }
 
 div.intro-text {
@@ -147,6 +156,12 @@ button.hire-us {
 button.hire-us:hover {
     color: #000000;
     background: #00FFE0;
+    transform: scale(1.2);
+}
+
+.hire-us:not(:disabled):not(:disabled):active {
+    background-color: #00FFE0;
+    color: #000000;
 }
 
 .intro-text h1 {
@@ -180,11 +195,9 @@ button.hire-us:hover {
 /* ##############ABOUT NOERROR############# */
 
 div.about {
-    position: absolute;
     padding-top: 5%;
     width: 100%;
     padding-left: 2%;
-    overflow: hidden;
 }
 
 div.about h1 {
@@ -208,7 +221,7 @@ div.about p {
 div.about img {
     width: 50%;
     margin-left: 25%;
-    filter: drop-shadow(0 0 100px #00FFE0);
+    filter: drop-shadow(0 0 90px #00FFE0);
 }
 
 @media only screen and (max-width: 680px) {
@@ -234,4 +247,139 @@ div.about img {
         padding-right: 3%;
         font-size: 1.1rem;
     }
+}
+
+
+/* #############################SERVICES######################### */
+
+div.services {
+    margin-top: 5%;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    overflow: hidden;
+    display: block;
+}
+
+div.services h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 2%;
+    padding-bottom: 3%;
+}
+
+div.service-box {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+div.service-child {
+    border: #00FFE0 2px solid;
+    border-radius: 30px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+div.circle {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-image: linear-gradient(to bottom right, white, white, #00FFE0);
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 0 20px #00FFE0;
+}
+
+.discord-service {
+    color: #004A41;
+    transform: translateY(2450%);
+}
+
+div.service-img {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+div.row {
+    margin: auto;
+}
+
+div.service-text {
+    margin: auto;
+    overflow-wrap: break-word;
+}
+
+div.service-text p {
+    margin: 0;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 120%;
+}
+
+i.fa-window-maximize {
+    color: #004A41;
+    transform: translateY(2450%);
+}
+
+i.fa-code {
+    color: #004A41;
+    transform: translateY(2450%);
+}
+
+i.fa-microchip {
+    color: #004A41;
+    transform: translateY(2450%);
+}
+
+i.fa-screwdriver-wrench {
+    color: #004A41;
+    transform: translateY(2450%);
+}
+
+i.fa-layer-group {
+    color: #004A41;
+    transform: translateY(2450%);
+}
+
+@media only screen and (max-width: 680px) {
+    div.services h1 {
+        font-size: 1.8rem;
+    }
+
+    div.circle {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        background-image: linear-gradient(to bottom right, white, white, #00FFE0);
+        margin: auto;
+        text-align: center;
+        box-shadow: 0 0 20px #00FFE0;
+    }
+
+    i.discord-service, i.fa-window-maximize, i.fa-code, i.fa-microchip, i.fa-screwdriver-wrench, i.fa-layer-group   {
+        color: #004A41;
+        transform: translateY(1700%);
+        font-size: x-large;
+    }
+
+    div.service-child {
+        border: #00FFE0 2px solid;
+        border-radius: 30px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    div.service-text p {
+        margin: 0;
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 120%;
+    }
+
+    div.services {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
 }
