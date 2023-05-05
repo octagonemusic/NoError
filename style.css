@@ -374,7 +374,7 @@ i.fa-layer-group {
         color: #004A41;
         position: relative;
         display: inline-block;
-        -webkit-transform: translateY(3400%);
+        -webkit-transform: translate3d(0, 3400%, 0);
         -ms-transform: translateY(1700%);
         -moz-transform: translateY(1700%);
         -o-transform: translateY(1700%);
