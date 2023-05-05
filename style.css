@@ -206,7 +206,6 @@ div.about h1 {
     text-align: left;
     padding-left: 2%;
     padding-bottom: 3%;
-    line-height: 50px;
 }
 
 span.bottom-line {
@@ -233,7 +232,6 @@ div.about img {
         padding-top: 2%;
         padding-left: 2%;
         padding-bottom: 3%;
-        line-height: 50px;
     }
 
     span.bottom-line {
@@ -296,6 +294,7 @@ div.circle {
 .discord-service {
     color: #004A41;
     transform: translateY(2450%);
+    -webkit-transform: translateY(2450%);
 }
 
 div.service-img {
@@ -322,26 +321,31 @@ div.service-text p {
 i.fa-window-maximize {
     color: #004A41;
     transform: translateY(2450%);
+    -webkit-transform: translateY(2450%);
 }
 
 i.fa-code {
     color: #004A41;
     transform: translateY(2450%);
+    -webkit-transform: translateY(2450%);
 }
 
 i.fa-microchip {
     color: #004A41;
     transform: translateY(2450%);
+    -webkit-transform: translateY(2450%);
 }
 
 i.fa-screwdriver-wrench {
     color: #004A41;
     transform: translateY(2450%);
+    -webkit-transform: translateY(2450%);
 }
 
 i.fa-layer-group {
     color: #004A41;
     transform: translateY(2450%);
+    -webkit-transform: translateY(2450%);
 }
 
 @media only screen and (max-width: 680px) {
@@ -366,7 +370,8 @@ i.fa-layer-group {
     i.fa-screwdriver-wrench,
     i.fa-layer-group {
         color: #004A41;
-        vertical-align: baseline;
+        -webkit-transform: translateY(1700%);
+        transform: translateY(1700%);
         font-size: x-large;
     }
 
