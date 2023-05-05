@@ -357,7 +357,12 @@ i.fa-layer-group {
         box-shadow: 0 0 20px #00FFE0;
     }
 
-    i.discord-service, i.fa-window-maximize, i.fa-code, i.fa-microchip, i.fa-screwdriver-wrench, i.fa-layer-group   {
+    i.discord-service,
+    i.fa-window-maximize,
+    i.fa-code,
+    i.fa-microchip,
+    i.fa-screwdriver-wrench,
+    i.fa-layer-group {
         color: #004A41;
         transform: translateY(1700%);
         font-size: x-large;
@@ -381,5 +386,112 @@ i.fa-layer-group {
         padding-left: 5%;
         padding-right: 5%;
     }
-    
+
+}
+
+/* ########################RECENT PROJECTS################### */
+
+div.projects {
+    margin-top: 5%;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    overflow: hidden;
+    display: block;
+}
+
+div.projects h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 2%;
+    padding-bottom: 3%;
+}
+
+div.project-box {
+    border: #00FFE0 2px solid;
+    border-radius: 30px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+div.project-img {
+    margin: auto;
+}
+
+div.test-img {
+    height: 300px;
+    width: 300px;
+    background-color: #00FFE0;
+    margin: auto;
+    margin-top: 5%
+}
+
+div.project-text {
+    padding-top: 10%
+}
+
+div.project-text h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 2%;
+}
+
+div.project-text p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-bottom: 2%;
+}
+
+div.view-projects h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+div.view-projects h5 a {
+    color: #00FFE0;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+div.view-projects h5 a:hover {
+    color: #00FFE0;
+    transition: 0.6s;
+    font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 680px) {
+    div.projects h1 {
+        font-size: 1.8rem;
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }
+
+    div.project-text h3 {
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+
+    div.project-box {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    div.project-text p {
+        font-size: 1.1rem;
+        font-weight: 400;
+        padding-bottom: 2%;
+        padding-left: 2%;
+        padding-right: 2%
+    }
+
+    div.test-img {
+        height: 250px;
+        width: 250px;
+        margin-top: 5%
+    }
 }
