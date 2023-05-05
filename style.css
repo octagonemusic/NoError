@@ -364,7 +364,7 @@ i.fa-layer-group {
     i.fa-screwdriver-wrench,
     i.fa-layer-group {
         color: #004A41;
-        transform: translateY(1700%);
+        vertical-align: baseline;
         font-size: x-large;
     }
 
