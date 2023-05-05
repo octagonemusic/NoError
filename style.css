@@ -372,7 +372,10 @@ i.fa-layer-group {
     i.fa-screwdriver-wrench,
     i.fa-layer-group {
         color: #004A41;
-        -webkit-transform: translateY(2450%);
+        -webkit-transform: translateY(1700%);
+        -ms-transform: translateY(1700%);
+        -moz-transform: translateY(1700%);
+        -o-transform: translateY(1700%);
         transform: translateY(1700%);
         font-size: x-large;
     }
