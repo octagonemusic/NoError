@@ -295,8 +295,7 @@ div.circle {
 
 .discord-service {
     color: #004A41;
-    transform: translateY(2450%);
-    -webkit-transform: translateY(2450%);
+    margin-top: 35px;
 }
 
 div.service-img {
@@ -322,32 +321,27 @@ div.service-text p {
 
 i.fa-window-maximize {
     color: #004A41;
-    transform: translateY(2450%);
-    -webkit-transform: translateY(2450%);
+    margin-top: 35px;
 }
 
 i.fa-code {
     color: #004A41;
-    transform: translateY(2450%);
-    -webkit-transform: translateY(2450%);
+    margin-top: 35px;
 }
 
 i.fa-microchip {
     color: #004A41;
-    transform: translateY(2450%);
-    -webkit-transform: translateY(2450%);
+    margin-top: 35px;
 }
 
 i.fa-screwdriver-wrench {
     color: #004A41;
-    transform: translateY(2450%);
-    -webkit-transform: translateY(2450%);
+    margin-top: 35px;
 }
 
 i.fa-layer-group {
     color: #004A41;
-    transform: translateY(2450%);
-    -webkit-transform: translateY(2450%);
+    margin-top: 35px;
 }
 
 @media only screen and (max-width: 680px) {
@@ -372,13 +366,7 @@ i.fa-layer-group {
     i.fa-screwdriver-wrench,
     i.fa-layer-group {
         color: #004A41;
-        position: relative;
-        display: inline-block;
-        -webkit-transform: translate3d(0, 3400%, 0);
-        -ms-transform: translateY(1700%);
-        -moz-transform: translateY(1700%);
-        -o-transform: translateY(1700%);
-        transform: translateY(1700%);
+        margin-top: 25px;
         font-size: x-large;
     }
 
