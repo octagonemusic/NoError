@@ -661,7 +661,7 @@ div.text h1 {
 
 div.hire-us-btn {
     text-align: center;
-    padding-bottom: 15%;
+    padding-bottom: 10%;
 }
 
 @media only screen and (max-width: 680px) {
@@ -680,3 +680,48 @@ div.hire-us-btn {
 
 /* ##################################CONTACT US############################## */
 
+div.contact {
+    margin-top: 5%;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    overflow: hidden;
+    display: block;
+}
+
+div.contact h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 2%;
+    padding-bottom: 3%;
+    line-height: 150%;
+}
+
+div.contact-form {
+    padding-top: 5%;
+}
+
+.input-row {
+    padding-bottom: 2%;
+}
+
+input {
+    background: #000000;
+    border: 2px solid #00FFE0;
+    padding: 1.5%;
+    width: 50%;
+    border-radius: 15px;
+    color: #fff;
+}
+
+textarea {
+    background-color: #000000;
+    border: 2px solid #00FFE0;
+    border-radius: 15px;
+    width: 50%;
+    padding: 2%;
+    height: 30vh;
+    resize: none;
+    color: #fff;
+}
