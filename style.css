@@ -509,3 +509,174 @@ div.view-projects h5 a:hover {
         margin-top: 5%
     }
 }
+
+/* ###########################REVIEWS##################### */
+
+div.reviews {
+    margin-top: 5%;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    overflow: hidden;
+    display: block;
+}
+
+div.comment-row {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2%;
+}
+
+div.reviews h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: right;
+    padding-left: 2%;
+    padding-bottom: 3%;
+    line-height: 150%;
+}
+
+div.comment-box {
+    border: 2px solid #00FFE0;
+    border-radius: 30px;
+}
+
+div.comment-box-small {
+    width: 20rem;
+    height: 30vh;
+    margin-right: 4.5%;
+    margin-left: 4.5%;
+    align-self: flex-end;
+}
+
+div.comment-box-large {
+    height: 38vh;
+}
+
+
+div.username img {
+    width: 8%;
+    height: 8%;
+    margin-left: 5%;
+}
+
+div.username {
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+div.username h4 {
+    padding-left: 5%;
+    font-size: 1.3rem;
+}
+
+div.review-text p {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 2.5%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+div.review-text.small p {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+div.comment-row-bottom div.comment-box-small {
+    width: 20rem;
+    height: 30vh;
+    margin-right: 4.5%;
+    margin-left: 4.5%;
+    align-self: flex-start;
+}
+
+
+@media only screen and (max-width: 680px) {
+    div.comment-box-large {
+        width: 95%;
+        height: 30vh;
+        overflow: hidden;
+    }
+
+    div.comment-box-small {
+        width: 95%;
+        height: 30vh;
+        overflow: hidden;
+    }
+
+    div.comment-row-bottom div.comment-box-small {
+        width: 95%;
+        height: 30vh;
+        margin-right: 4.5%;
+        margin-left: 4.5%;
+        align-self: flex-start;
+        overflow: hidden;
+    }
+
+    div.comment-box {
+        margin-bottom: 5%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    div.reviews h1 {
+        font-size: 1.8rem;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    div.comment-box img {
+        width: 6%;
+        height: 6%;
+    }
+
+    div.comment-box p {
+        font-size: 1rem;
+    }
+
+    div.comment-box h4 {
+        padding-left: 3%;
+    }
+}
+
+
+/* ####################CODING NEEDS################ */
+
+div.needs div.text {
+    text-align: center;
+    padding: 15%;
+    margin: auto;
+    padding-bottom: 3%;
+}
+
+div.text h1 {
+    line-height: 4.5rem;
+    font-size: 3.5rem;
+    ;
+}
+
+div.hire-us-btn {
+    text-align: center;
+    padding-bottom: 15%;
+}
+
+@media only screen and (max-width: 680px) {
+    div.text h1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    div.needs div.text {
+        text-align: center;
+        margin: auto;
+        padding: 5%;
+        padding-bottom: 5%;
+    }
+}
+
+/* ##################################CONTACT US############################## */
+
