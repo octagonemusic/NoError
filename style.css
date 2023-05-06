@@ -542,7 +542,7 @@ div.comment-box {
 }
 
 div.comment-box-small {
-    width: 20rem;
+    width: 24%;
     height: 30vh;
     margin-right: 4.5%;
     margin-left: 4.5%;
@@ -571,6 +571,11 @@ div.username h4 {
     font-size: 1.3rem;
 }
 
+div.comment-box {
+    padding-bottom: 15%;
+    overflow: hidden;
+}
+
 div.review-text p {
     padding-left: 2.5%;
     padding-right: 2.5%;
@@ -587,7 +592,7 @@ div.review-text.small p {
 }
 
 div.comment-row-bottom div.comment-box-small {
-    width: 20rem;
+    width: 24%;
     height: 30vh;
     margin-right: 4.5%;
     margin-left: 4.5%;
