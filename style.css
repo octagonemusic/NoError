@@ -811,6 +811,17 @@ div.call-button button:hover {
     transform: scale(1.1);
 }
 
+.call-btn a {
+    text-decoration: none;
+    color: #000000
+}
+
+.call-btn:not(:disabled):not(:disabled):active {
+    background-color: #00FFE0;
+    color: #000000;
+}
+
+
 div.input-row input[type=submit]:hover {
     color: #000000;
     background: #00FFE0;
