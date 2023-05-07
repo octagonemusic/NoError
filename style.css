@@ -782,6 +782,7 @@ input[type=submit] {
     border-radius: 100px;
     padding: 1rem;
     width: 12rem;
+    font-weight: 400;
     font-size: 1.25rem;
     color: #000000;
     box-shadow: 0 0 30px #00FFE0;
@@ -832,6 +833,8 @@ div.input-row input[type=submit]:hover {
     input,
     select {
         padding: 3.5%;
+        -webkit-appearance: initial;
+        appearance: initial;
     }
 
     .icons-list {
@@ -844,7 +847,7 @@ div.input-row input[type=submit]:hover {
 
     div.call-button {
         padding-top: 5%;
-        padding-left: 2.5%;
+        padding-left: 4%;
     }
 }
 
