@@ -187,7 +187,7 @@ button.hire-us:hover {
 
 @media only screen and (max-width: 680px) {
     div.background-img {
-        width: 80%;
+        width: 75%;
     }
 
     .intro-text h1 {
@@ -703,12 +703,8 @@ div.contact h1 {
     line-height: 150%;
 }
 
-div.contact-form {
-    padding-top: 5%;
-}
-
 .input-row {
-    padding-bottom: 2%;
+    padding-bottom: 2.5%;
 }
 
 input {
@@ -731,12 +727,179 @@ textarea {
     color: #fff;
 }
 
+.icons-list {
+    border: 2px solid #00FFE0;
+    width: 40%;
+    border-radius: 50px;
+    margin-top: 30%;
+}
+
+.icon-list-icon {
+    text-align: center;
+    padding: 0;
+}
+
+.icon-list-item {
+    padding: 20%;
+    padding-top: 50%;
+}
+
+select {
+    background: #000000;
+    border: 2px solid #00FFE0;
+    padding: 1.5%;
+    width: 50%;
+    border-radius: 15px;
+    color: #fff;
+}
+
+select:required:invalid {
+    color: gray;
+}
+
+option[value=""][disabled] {
+    display: none;
+}
+
+div.icons-list {
+    vertical-align: middle;
+}
+
+.contact-icon {
+    transition: 0.4s;
+}
+
+.contact-icon:hover {
+    color: #00FFE0;
+    transition: 0.4s;
+    transform: scale(1.25);
+    text-shadow: 0 0 5px #00FFE0;
+}
+
+input[type=submit] {
+    background: #00FFE0;
+    border: none;
+    border-radius: 100px;
+    padding: 1rem;
+    width: 12rem;
+    font-size: 1.25rem;
+    color: #000000;
+    box-shadow: 0 0 30px #00FFE0;
+    transition: transform 0.4s;
+}
+
+div.input-row button {
+    background: #00FFE0;
+    border: none;
+    border-radius: 100px;
+    padding: 1rem;
+    width: 12rem;
+    font-size: 1.25rem;
+    color: #000000;
+    box-shadow: 0 0 30px #00FFE0;
+    transition: transform 0.4s;
+}
+
+div.call-button {
+    padding-left: 0;
+}
+
+div.call-button button:hover {
+    color: #000000;
+    background: #00FFE0;
+    transform: scale(1.1);
+}
+
+div.input-row input[type=submit]:hover {
+    color: #000000;
+    background: #00FFE0;
+    transform: scale(1.1);
+}
+
 @media only screen and (max-width: 680px) {
-    input, textarea {
+
+    div.contact h1 {
+        font-size: 2rem;
+        padding-bottom: 7%;
+    }
+
+    input,
+    textarea,
+    select {
         width: 100%;
     }
 
-    input {
+    input,
+    select {
         padding: 3.5%;
+    }
+
+    .icons-list {
+        display: none;
+    }
+
+    .input-row {
+        padding-bottom: 5%;
+    }
+
+    div.call-button {
+        padding-top: 5%;
+        padding-left: 2.5%;
+    }
+}
+
+/* ##############################HOVER################################### */
+
+div.footer {
+    background-color: #004A41;
+    margin-top: 5%;
+    padding-top: 4%;
+    padding-left: 3%;
+}
+
+div.footer-logo {
+    padding-bottom: 4%;
+}
+
+div.footer-text {
+    padding-right: 15%;
+}
+
+div.footer-text p {
+    padding-bottom: 5%;
+}
+
+div.policies p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+div.policies p {
+    padding-left: 25%;
+    padding-bottom: 5%;
+}
+
+div.policies p i {
+    padding: 0;
+    padding-right: 4%;
+}
+
+@media only screen and (max-width: 680px) {
+    div.policies p {
+        padding-left: 0;
+        padding-bottom: 1%;
+    }
+
+    div.footer-logo {
+        padding-bottom: 8%;
+    }
+
+    div.footer-text {
+        padding-right: 3%;
+    }
+
+    div.policies p i {
+        padding-top: 8%;
+        padding-right: 8%;
     }
 }
