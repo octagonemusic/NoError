@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: #000000;
     color: #ffffff;
@@ -30,6 +34,11 @@ div.container {
 
 .fa {
     color: #fff;
+}
+
+button a {
+    color: #000000;
+    text-decoration: none;
 }
 
 /* ##################NAVBAR########################## */
