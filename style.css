@@ -912,6 +912,7 @@ div.input-row input[type=submit]:hover {
     div.call-button {
         padding-top: 5%;
         padding-left: 4%;
+        margin-bottom: 5%;
     }
 }
 
@@ -970,5 +971,3 @@ div.policies p i {
         padding-right: 8%;
     }
 }
-
-/* #############SCROLL ANIMATIONS############## */
