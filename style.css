@@ -85,6 +85,51 @@ canvas {
     z-index: -1;
 }
 
+/* ######################LOADER####################### */
+
+#progress-bar {
+    width: 100%;
+    display: block;
+}
+
+#loader-logo {
+    display: block;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+#loader-logo img {
+    width: 4rem;
+    height: 4rem;
+    filter: drop-shadow(0 0 10px #00FFE0);
+}
+
+#myBar {
+    width: 5%;
+    height: 3.5px;
+    border-radius: 20px;
+    background-color: #00FFE0;
+    box-shadow: 0 0 30px #00FFE0;
+}
+
+#myProgress {
+    width: 20%;
+    border-radius: 20px;
+    background-color: grey;
+    margin: auto;
+}
+
+#loader {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#loaded {
+    display: none;
+}
+
 /* ##################NAVBAR########################## */
 .navbar {
     background: #00110F;
