@@ -130,6 +130,15 @@ canvas {
     display: none;
 }
 
+@media only screen and (max-width: 680px) {
+    #myProgress {
+        width: 50%;
+    }
+    #progress-bar {
+        padding-top: 3%;
+    }
+}
+
 /* ##################NAVBAR########################## */
 .navbar {
     background: #00110F;
