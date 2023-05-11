@@ -542,10 +542,9 @@ div.project-img {
     margin: auto;
 }
 
-div.test-img {
+div.test-img img {
     height: 300px;
     width: 300px;
-    background-color: #00FFE0;
     margin: auto;
     margin-top: 5%
 }
@@ -583,6 +582,11 @@ div.view-projects h5 a:hover {
     color: #00FFE0;
     transition: 0.6s;
     font-size: 1.6rem;
+}
+
+#pixel {
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 @media only screen and (max-width: 680px) {
